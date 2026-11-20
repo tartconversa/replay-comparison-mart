@@ -1,0 +1,34 @@
+{
+  "intake": 1,
+  "table": "scenarios",
+  "records": [
+    {
+      "id": "s1",
+      "group": "easy",
+      "input": "work-a",
+      "revision": "fmt1",
+      "replaces": null
+    },
+    {
+      "id": "s2",
+      "group": "heavy",
+      "input": "work-b",
+      "revision": "fmt1",
+      "replaces": null
+    },
+    {
+      "id": "s3",
+      "group": "heavy",
+      "input": "work-c",
+      "revision": "fmt1",
+      "replaces": null
+    },
+    {
+      "id": "s4",
+      "group": "easy",
+      "input": "work-d",
+      "revision": "fmt1",
+      "replaces": null
+    }
+  ]
+}

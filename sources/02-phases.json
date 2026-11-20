@@ -1,0 +1,105 @@
+{
+  "intake": 2,
+  "table": "phases",
+  "records": [
+    {
+      "id": "b1pr",
+      "attempt": "b1r",
+      "stage": "prepare",
+      "input": "work-a",
+      "dependency": null,
+      "artifact": "pB1",
+      "state": "pass",
+      "reused_from": "b1p",
+      "score": null
+    },
+    {
+      "id": "b1rr",
+      "attempt": "b1r",
+      "stage": "run",
+      "input": "work-a",
+      "dependency": "pB1",
+      "artifact": "rB1r",
+      "state": "pass",
+      "reused_from": null,
+      "score": null
+    },
+    {
+      "id": "b1cr",
+      "attempt": "b1r",
+      "stage": "check",
+      "input": "work-a",
+      "dependency": "rB1r",
+      "artifact": "cB1r",
+      "state": "pass",
+      "reused_from": null,
+      "score": "74"
+    },
+    {
+      "id": "b2bp",
+      "attempt": "b2b",
+      "stage": "prepare",
+      "input": "work-bzip",
+      "dependency": null,
+      "artifact": "pB2b",
+      "state": "pass",
+      "reused_from": null,
+      "score": null
+    },
+    {
+      "id": "b2br",
+      "attempt": "b2b",
+      "stage": "run",
+      "input": "work-bzip",
+      "dependency": "pB2b",
+      "artifact": "rB2b",
+      "state": "pass",
+      "reused_from": null,
+      "score": null
+    },
+    {
+      "id": "b2bc",
+      "attempt": "b2b",
+      "stage": "check",
+      "input": "work-bzip",
+      "dependency": "rB2b",
+      "artifact": "cB2b",
+      "state": "pass",
+      "reused_from": null,
+      "score": "82"
+    },
+    {
+      "id": "b3bp",
+      "attempt": "b3b",
+      "stage": "prepare",
+      "input": "work-cnew",
+      "dependency": null,
+      "artifact": "pB3",
+      "state": "pass",
+      "reused_from": "b3p",
+      "score": null
+    },
+    {
+      "id": "b3br",
+      "attempt": "b3b",
+      "stage": "run",
+      "input": "work-cnew",
+      "dependency": "pB3",
+      "artifact": "rB3b",
+      "state": "pass",
+      "reused_from": null,
+      "score": null
+    },
+    {
+      "id": "b3bc",
+      "attempt": "b3b",
+      "stage": "check",
+      "input": "work-cnew",
+      "dependency": "rB3b",
+      "artifact": "cB3b",
+      "state": "pass",
+      "reused_from": null,
+      "score": "91"
+    }
+  ]
+}

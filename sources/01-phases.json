@@ -1,0 +1,171 @@
+{
+  "intake": 1,
+  "table": "phases",
+  "records": [
+    {
+      "id": "a1p",
+      "attempt": "a1",
+      "stage": "prepare",
+      "input": "work-a",
+      "dependency": null,
+      "artifact": "pA1",
+      "state": "pass",
+      "reused_from": null,
+      "score": null
+    },
+    {
+      "id": "a1r",
+      "attempt": "a1",
+      "stage": "run",
+      "input": "work-a",
+      "dependency": "pA1",
+      "artifact": "rA1",
+      "state": "pass",
+      "reused_from": null,
+      "score": null
+    },
+    {
+      "id": "a1c",
+      "attempt": "a1",
+      "stage": "check",
+      "input": "work-a",
+      "dependency": "rA1",
+      "artifact": "cA1",
+      "state": "pass",
+      "reused_from": null,
+      "score": "86"
+    },
+    {
+      "id": "b1p",
+      "attempt": "b1",
+      "stage": "prepare",
+      "input": "work-a",
+      "dependency": null,
+      "artifact": "pB1",
+      "state": "pass",
+      "reused_from": null,
+      "score": null
+    },
+    {
+      "id": "b1r",
+      "attempt": "b1",
+      "stage": "run",
+      "input": "work-a",
+      "dependency": "pB1",
+      "artifact": "rB1",
+      "state": "fail",
+      "reused_from": null,
+      "score": null
+    },
+    {
+      "id": "a2p",
+      "attempt": "a2",
+      "stage": "prepare",
+      "input": "work-b",
+      "dependency": null,
+      "artifact": "pA2",
+      "state": "pass",
+      "reused_from": null,
+      "score": null
+    },
+    {
+      "id": "a2r",
+      "attempt": "a2",
+      "stage": "run",
+      "input": "work-b",
+      "dependency": "pA2",
+      "artifact": "rA2",
+      "state": "pass",
+      "reused_from": null,
+      "score": null
+    },
+    {
+      "id": "a2c",
+      "attempt": "a2",
+      "stage": "check",
+      "input": "work-b",
+      "dependency": "rA2",
+      "artifact": "cA2",
+      "state": "pass",
+      "reused_from": null,
+      "score": "79"
+    },
+    {
+      "id": "b2p",
+      "attempt": "b2",
+      "stage": "prepare",
+      "input": "work-b",
+      "dependency": null,
+      "artifact": "pB2",
+      "state": "pass",
+      "reused_from": null,
+      "score": null
+    },
+    {
+      "id": "b2r",
+      "attempt": "b2",
+      "stage": "run",
+      "input": "work-b",
+      "dependency": "pB2",
+      "artifact": "rB2",
+      "state": "fail",
+      "reused_from": null,
+      "score": null
+    },
+    {
+      "id": "a3p",
+      "attempt": "a3",
+      "stage": "prepare",
+      "input": "work-c",
+      "dependency": null,
+      "artifact": "pA3",
+      "state": "pass",
+      "reused_from": null,
+      "score": null
+    },
+    {
+      "id": "a3r",
+      "attempt": "a3",
+      "stage": "run",
+      "input": "work-c",
+      "dependency": "pA3",
+      "artifact": "rA3",
+      "state": "pass",
+      "reused_from": null,
+      "score": null
+    },
+    {
+      "id": "a3c",
+      "attempt": "a3",
+      "stage": "check",
+      "input": "work-c",
+      "dependency": "rA3",
+      "artifact": "cA3",
+      "state": "pass",
+      "reused_from": null,
+      "score": "84"
+    },
+    {
+      "id": "b3p",
+      "attempt": "b3",
+      "stage": "prepare",
+      "input": "work-c",
+      "dependency": null,
+      "artifact": "pB3",
+      "state": "pass",
+      "reused_from": null,
+      "score": null
+    },
+    {
+      "id": "a4p",
+      "attempt": "a4",
+      "stage": "prepare",
+      "input": "work-d",
+      "dependency": null,
+      "artifact": "pA4",
+      "state": "pass",
+      "reused_from": null,
+      "score": null
+    }
+  ]
+}

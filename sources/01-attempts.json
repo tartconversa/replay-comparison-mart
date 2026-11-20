@@ -1,0 +1,48 @@
+{
+  "intake": 1,
+  "table": "attempts",
+  "records": [
+    {
+      "id": "a1",
+      "schedule": "runA1",
+      "parent": null,
+      "started": 10
+    },
+    {
+      "id": "b1",
+      "schedule": "runB1",
+      "parent": null,
+      "started": 12
+    },
+    {
+      "id": "a2",
+      "schedule": "runA2",
+      "parent": null,
+      "started": 15
+    },
+    {
+      "id": "b2",
+      "schedule": "runB2",
+      "parent": null,
+      "started": 20
+    },
+    {
+      "id": "a3",
+      "schedule": "runA3",
+      "parent": null,
+      "started": 28
+    },
+    {
+      "id": "b3",
+      "schedule": "runB3",
+      "parent": null,
+      "started": 30
+    },
+    {
+      "id": "a4",
+      "schedule": "runA4",
+      "parent": null,
+      "started": 40
+    }
+  ]
+}

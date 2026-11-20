@@ -1,0 +1,22 @@
+{
+  "intake": 1,
+  "table": "environments",
+  "records": [
+    {
+      "id": "eA",
+      "provider": "teamA",
+      "hardware": "hw1",
+      "stack": "stack1",
+      "invocation": "a",
+      "since": 1
+    },
+    {
+      "id": "eB",
+      "provider": "teamB",
+      "hardware": "hw2",
+      "stack": "stack2",
+      "invocation": "b",
+      "since": 1
+    }
+  ]
+}

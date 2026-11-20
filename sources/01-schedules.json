@@ -1,0 +1,48 @@
+{
+  "intake": 1,
+  "table": "schedules",
+  "records": [
+    {
+      "id": "runA1",
+      "scenario": "s1",
+      "invocation": "a",
+      "scheduled_at": 10
+    },
+    {
+      "id": "runB1",
+      "scenario": "s1",
+      "invocation": "b",
+      "scheduled_at": 12
+    },
+    {
+      "id": "runA2",
+      "scenario": "s2",
+      "invocation": "a",
+      "scheduled_at": 15
+    },
+    {
+      "id": "runB2",
+      "scenario": "s2",
+      "invocation": "b",
+      "scheduled_at": 20
+    },
+    {
+      "id": "runA3",
+      "scenario": "s3",
+      "invocation": "a",
+      "scheduled_at": 28
+    },
+    {
+      "id": "runB3",
+      "scenario": "s3",
+      "invocation": "b",
+      "scheduled_at": 30
+    },
+    {
+      "id": "runA4",
+      "scenario": "s4",
+      "invocation": "a",
+      "scheduled_at": 40
+    }
+  ]
+}

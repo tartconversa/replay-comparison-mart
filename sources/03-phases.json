@@ -1,0 +1,61 @@
+{
+  "intake": 3,
+  "table": "phases",
+  "records": [
+    {
+      "id": "b2late",
+      "attempt": "b2",
+      "stage": "check",
+      "input": "work-b",
+      "dependency": "rB2",
+      "artifact": "cB2late",
+      "state": "pass",
+      "reused_from": null,
+      "score": "87"
+    },
+    {
+      "id": "b3late-run",
+      "attempt": "b3",
+      "stage": "run",
+      "input": "work-c",
+      "dependency": "pB3",
+      "artifact": "rB3late",
+      "state": "pass",
+      "reused_from": null,
+      "score": null
+    },
+    {
+      "id": "b3late-check",
+      "attempt": "b3",
+      "stage": "check",
+      "input": "work-c",
+      "dependency": "rB3late",
+      "artifact": "cB3late",
+      "state": "pass",
+      "reused_from": null,
+      "score": "85"
+    },
+    {
+      "id": "a4r",
+      "attempt": "a4",
+      "stage": "run",
+      "input": "work-d",
+      "dependency": "pA4",
+      "artifact": "rA4",
+      "state": "pass",
+      "reused_from": null,
+      "score": null
+    },
+    {
+      "id": "a4c",
+      "attempt": "a4",
+      "stage": "check",
+      "input": "work-d",
+      "dependency": "rA4",
+      "artifact": "cA4",
+      "state": "pass",
+      "reused_from": null,
+      "score": "83"
+    }
+  ]
+}

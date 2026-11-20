@@ -1,0 +1,20 @@
+{
+  "intake": 2,
+  "table": "scenarios",
+  "records": [
+    {
+      "id": "s2b",
+      "group": "heavy",
+      "input": "work-bzip",
+      "revision": "fmt2",
+      "replaces": "s2"
+    },
+    {
+      "id": "s3b",
+      "group": "heavy",
+      "input": "work-cnew",
+      "revision": "fmt2",
+      "replaces": "s3"
+    }
+  ]
+}

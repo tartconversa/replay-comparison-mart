@@ -1,0 +1,62 @@
+{
+  "scenarios": {
+    "id": "text",
+    "group": "text",
+    "input": "text",
+    "revision": "text",
+    "replaces": "text"
+  },
+  "environments": {
+    "id": "text",
+    "provider": "text",
+    "hardware": "text",
+    "stack": "text",
+    "invocation": "text",
+    "since": "int"
+  },
+  "aliases": {
+    "id": "text",
+    "invocation": "text",
+    "env": "text",
+    "span": "range"
+  },
+  "equivalence": {
+    "id": "text",
+    "left": "text",
+    "right": "text",
+    "relation": "text",
+    "revoked": "text"
+  },
+  "schedules": {
+    "id": "text",
+    "scenario": "text",
+    "invocation": "text",
+    "scheduled_at": "int"
+  },
+  "attempts": {
+    "id": "text",
+    "schedule": "text",
+    "parent": "text",
+    "started": "int"
+  },
+  "phases": {
+    "id": "text",
+    "attempt": "text",
+    "stage": "text",
+    "input": "text",
+    "dependency": "text",
+    "artifact": "text",
+    "state": "text",
+    "reused_from": "text",
+    "score": "text"
+  },
+  "requests": {
+    "id": "text",
+    "scenario_ids": "items",
+    "env_left": "text",
+    "env_right": "text",
+    "cutoff": "int",
+    "min_easy": "int",
+    "min_heavy": "int"
+  }
+}

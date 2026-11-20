@@ -1,0 +1,13 @@
+{
+  "intake": 3,
+  "table": "equivalence",
+  "records": [
+    {
+      "id": "eqb-off",
+      "left": "work-b",
+      "right": "work-bzip",
+      "relation": "revoked",
+      "revoked": "eqb"
+    }
+  ]
+}

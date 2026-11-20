@@ -1,0 +1,24 @@
+{
+  "intake": 1,
+  "table": "aliases",
+  "records": [
+    {
+      "id": "aa",
+      "invocation": "a",
+      "env": "eA",
+      "span": [
+        1,
+        100
+      ]
+    },
+    {
+      "id": "ab1",
+      "invocation": "b",
+      "env": "eB",
+      "span": [
+        1,
+        50
+      ]
+    }
+  ]
+}

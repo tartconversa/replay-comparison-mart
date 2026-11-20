@@ -1,0 +1,14 @@
+{
+  "intake": 2,
+  "table": "environments",
+  "records": [
+    {
+      "id": "eB2",
+      "provider": "teamB",
+      "hardware": "hw2",
+      "stack": "stack3",
+      "invocation": "b",
+      "since": 50
+    }
+  ]
+}

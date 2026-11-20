@@ -1,0 +1,18 @@
+{
+  "intake": 2,
+  "table": "schedules",
+  "records": [
+    {
+      "id": "runB2new",
+      "scenario": "s2b",
+      "invocation": "b",
+      "scheduled_at": 42
+    },
+    {
+      "id": "runB3new",
+      "scenario": "s3b",
+      "invocation": "b",
+      "scheduled_at": 56
+    }
+  ]
+}

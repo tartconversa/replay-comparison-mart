@@ -1,0 +1,15 @@
+{
+  "intake": 2,
+  "table": "aliases",
+  "records": [
+    {
+      "id": "ab2",
+      "invocation": "b",
+      "env": "eB2",
+      "span": [
+        50,
+        100
+      ]
+    }
+  ]
+}
